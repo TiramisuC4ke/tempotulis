@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'auth/auth_root.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -105,7 +108,7 @@ class MyApp extends StatelessWidget {
                   : Colors.grey[800]),
         ),
       ),
-      home: const MainPage(),
+      home: const AuthRoot(),
     );
   }
 }
